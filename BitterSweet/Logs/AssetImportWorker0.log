@@ -12,72 +12,63 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54134
+51885
 Successfully changed project path to: /Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet
 /Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 30.13 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet/Assets
 GfxDevice: creating device client; threaded=0
-2021-09-30 06:18:28.575 Unity[52838:2248289] Color LCD preferred device: AMD Radeon Pro 560X (high power)
-2021-09-30 06:18:28.575 Unity[52838:2248289] Metal devices available: 2
-2021-09-30 06:18:28.575 Unity[52838:2248289] 0: AMD Radeon Pro 560X (high power)
-2021-09-30 06:18:28.575 Unity[52838:2248289] 1: Intel(R) UHD Graphics 630 (low power)
-2021-09-30 06:18:28.576 Unity[52838:2248289] Using device AMD Radeon Pro 560X (high power)
+2021-10-06 17:57:09.210 Unity[2811:165365] Color LCD preferred device: AMD Radeon Pro 560X (high power)
+2021-10-06 17:57:09.210 Unity[2811:165365] Metal devices available: 2
+2021-10-06 17:57:09.210 Unity[2811:165365] 0: AMD Radeon Pro 560X (high power)
+2021-10-06 17:57:09.210 Unity[2811:165365] 1: Intel(R) UHD Graphics 630 (low power)
+2021-10-06 17:57:09.211 Unity[2811:165365] Using device AMD Radeon Pro 560X (high power)
 Initializing Metal device caps: AMD Radeon Pro 560X
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56838
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56811
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000925 seconds.
+Registered in 0.002073 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 41.19 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.03 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.820 seconds
+- Completed reload, in  2.789 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000569 seconds.
+Registered in 0.001438 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.026 seconds
+- Completed reload, in  1.512 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.2 MB.
-System memory in use after: 110.2 MB.
+System memory in use before: 110.3 MB.
+System memory in use after: 110.4 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1559.
-Total: 4.446632 ms (FindLiveObjects: 0.275856 ms CreateObjectMapping: 0.109139 ms MarkObjects: 3.882938 ms  DeleteObjects: 0.176842 ms)
+Total: 3.034589 ms (FindLiveObjects: 0.224024 ms CreateObjectMapping: 0.060842 ms MarkObjects: 2.631536 ms  DeleteObjects: 0.116429 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Models/Bush.obj
-  artifactKey: Guid(56dcfc18177c19046bc0ce8cc74d4b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Bush.obj using Guid(56dcfc18177c19046bc0ce8cc74d4b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8af9e2e874f8c0c306c3ee584136f3d') in 0.812333 seconds
-  Import took 0.815793 seconds .
+  path: Assets/2D Assets/001_TreeCutout.png
+  artifactKey: Guid(8b5664448f52f436982241e7e5114c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/001_TreeCutout.png using Guid(8b5664448f52f436982241e7e5114c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6d033b6692d87d1b9ce32f22a5aaeb') in 2.189894 seconds
+  Import took 2.193517 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 21.109000 seconds.
-  path: Assets/Models/Bush.obj
-  artifactKey: Guid(56dcfc18177c19046bc0ce8cc74d4b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Bush.obj using Guid(56dcfc18177c19046bc0ce8cc74d4b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e677ceb96eb2e8d053ac4ee5556d1ccb') in 0.081987 seconds
-  Import took 0.085915 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
