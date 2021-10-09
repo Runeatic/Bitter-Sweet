@@ -400,3 +400,75 @@ Received Import Request.
 Start importing Assets/Materials/New Material.mat using Guid(caedffd497f4d48b991d95a610c6ac20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75436d817c7b2fd060420dc7787a1b8e') in 0.015570 seconds
   Import took 0.017752 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1004.346959 seconds.
+  path: Assets/Materials/Leaves_1.mat
+  artifactKey: Guid(cf2e5f226d515410a95cc8aa1030261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Leaves_1.mat using Guid(cf2e5f226d515410a95cc8aa1030261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bd1df3dd562bbff214ca83cde61193') in 0.022365 seconds
+  Import took 0.026212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Materials/Leaves_3.mat
+  artifactKey: Guid(1d9683c63f54949d8aeed02230092bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Leaves_3.mat using Guid(1d9683c63f54949d8aeed02230092bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24b2f9a5869e4ce480d9ea7c9d71257') in 0.013074 seconds
+  Import took 0.016226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Materials/Leaves_2.mat
+  artifactKey: Guid(0a33529f536564b1e819fc34535a9f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Leaves_2.mat using Guid(0a33529f536564b1e819fc34535a9f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb2e24f75714d4c8aa9520a829829a3') in 0.014066 seconds
+  Import took 0.017261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.135467 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(caedffd497f4d48b991d95a610c6ac20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(caedffd497f4d48b991d95a610c6ac20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ac0d58f8717819d9533ea18eebd4b2') in 0.012675 seconds
+  Import took 0.016422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2784.678647 seconds.
+  path: Assets/Models/Environment/Rock_2.obj
+  artifactKey: Guid(ce23dd1fadfb6446498c509ff19c7e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Environment/Rock_2.obj using Guid(ce23dd1fadfb6446498c509ff19c7e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc812b51a9a0e5b6fcbe389886c708ea') in 0.069229 seconds
+  Import took 0.071445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 338.434946 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(55e6123264e714b518ec65aa8bf0d323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(55e6123264e714b518ec65aa8bf0d323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295aea57cb80c2cc1bf86d9aa2b34898') in 0.022788 seconds
+  Import took 0.025120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.178811 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(55e6123264e714b518ec65aa8bf0d323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(55e6123264e714b518ec65aa8bf0d323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7705f3c444da68051687b217e34bef') in 0.031743 seconds
+  Import took 0.034685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.613978 seconds.
+  path: Assets/Materials/New Material 2.mat
+  artifactKey: Guid(cecdff3a510d849109027636d5d992f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 2.mat using Guid(cecdff3a510d849109027636d5d992f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b588be2c1f8c6e9b9d74f4b5ff8a1f') in 0.026523 seconds
+  Import took 0.029550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 220.280649 seconds.
+  path: Assets/Materials/New Material 3.mat
+  artifactKey: Guid(dca13a075a2a542baac4576951cdb226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 3.mat using Guid(dca13a075a2a542baac4576951cdb226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f25370889959814b462c36637f2a969') in 0.025222 seconds
+  Import took 0.029467 seconds .
+
