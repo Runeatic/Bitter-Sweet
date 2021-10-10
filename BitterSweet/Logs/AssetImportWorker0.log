@@ -584,3 +584,27 @@ Received Import Request.
 Start importing Assets/Materials/Leaves_2.mat using Guid(0a33529f536564b1e819fc34535a9f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64688e78d7fb0d4b8e56fe9dfa48717e') in 0.016151 seconds
   Import took 0.018164 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 2241.865857 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(d2880b644198d477881d1f913704ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(d2880b644198d477881d1f913704ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2151d34d05094c5841bbe0e258c702a') in 0.001564 seconds
+  Import took 0.003649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001232 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(d2880b644198d477881d1f913704ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(d2880b644198d477881d1f913704ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2151d34d05094c5841bbe0e258c702a') in 0.001467 seconds
+  Import took 0.003535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.592512 seconds.
+  path: Assets/Scenes/Cottage.unity
+  artifactKey: Guid(b0f20689c86c24c9586c658b4386febf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cottage.unity using Guid(b0f20689c86c24c9586c658b4386febf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5964ca3ee7509a063488cb95bc8a15c') in 0.001678 seconds
+  Import took 0.004008 seconds .
+
