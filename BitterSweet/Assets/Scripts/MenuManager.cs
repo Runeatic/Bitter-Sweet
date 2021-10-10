@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
 	GameObject[] menuObjects;
-	GameObject[] pauseObjects;
+	//GameObject[] pauseObjects;
 	GameObject[] creditObjects;
 
 	void Start()
@@ -14,7 +14,7 @@ public class MenuManager : MonoBehaviour
 		Time.timeScale = 0;
 		menuObjects = GameObject.FindGameObjectsWithTag("Main Menu");
 		creditObjects = GameObject.FindGameObjectsWithTag("Credits");
-		pauseObjects = GameObject.FindGameObjectsWithTag("Pause Menu");
+		//pauseObjects = GameObject.FindGameObjectsWithTag("Pause Menu");
 		hideCredits();
 	}
 
