@@ -1,186 +1,343 @@
 Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16191 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet
+C:/Users/runet/Documents/a/BitterSweet/BitterSweet
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62045
-Successfully changed project path to: /Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet
-/Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet
+50850
+Successfully changed project path to: C:/Users/runet/Documents/a/BitterSweet/BitterSweet
+C:/Users/runet/Documents/a/BitterSweet/BitterSweet
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.98 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 26.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/runet/Documents/a/BitterSweet/BitterSweet/Assets
 GfxDevice: creating device client; threaded=0
-2021-10-21 05:38:26.277 Unity[37315:3407823] Color LCD preferred device: AMD Radeon Pro 560X (high power)
-2021-10-21 05:38:26.277 Unity[37315:3407823] Metal devices available: 2
-2021-10-21 05:38:26.277 Unity[37315:3407823] 0: AMD Radeon Pro 560X (high power)
-2021-10-21 05:38:26.277 Unity[37315:3407823] 1: Intel(R) UHD Graphics 630 (low power)
-2021-10-21 05:38:26.278 Unity[37315:3407823] Using device AMD Radeon Pro 560X (high power)
-Initializing Metal device caps: AMD Radeon Pro 560X
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.6663
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56315
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000786 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003011 seconds.
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 36.25 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 25.91 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.129 seconds
+- Completed reload, in  1.278 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000599 seconds.
+Registered in 0.000728 seconds.
 Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.411 seconds
+- Completed reload, in  0.810 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.7 MB.
-System memory in use after: 129.8 MB.
+System memory in use before: 75.6 MB.
+System memory in use after: 75.6 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1576.
-Total: 3.285108 ms (FindLiveObjects: 0.245455 ms CreateObjectMapping: 0.072881 ms MarkObjects: 2.850870 ms  DeleteObjects: 0.114417 ms)
+Total: 1.569700 ms (FindLiveObjects: 0.117100 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.349500 ms  DeleteObjects: 0.070800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Level_3.unity
-  artifactKey: Guid(5dfac403adc1f4130a6646128abb7aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_3.unity using Guid(5dfac403adc1f4130a6646128abb7aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ef86047369cf94de8268fa0338d8f8') in 0.017779 seconds
-  Import took 0.020605 seconds .
+  path: Assets/Animation/Hansel_Gretel_Idle_Animation.fbx
+  artifactKey: Guid(f99b1aab44c67904997c81c6a374de56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Hansel_Gretel_Idle_Animation.fbx using Guid(f99b1aab44c67904997c81c6a374de56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a26af064ca8f71512e21cff02147a36') in 0.097236 seconds
+  Import took 0.099453 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 55.123408 seconds.
-  path: Assets/Scenes/Level_3.unity
-  artifactKey: Guid(5dfac403adc1f4130a6646128abb7aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_3.unity using Guid(5dfac403adc1f4130a6646128abb7aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0731766da58c9c98d89756d2b873cbc6') in 0.002362 seconds
-  Import took 0.005511 seconds .
+  Time since last request: 0.000750 seconds.
+  path: Assets/Animation/Hansel_Gretel_Run_Baked_Animation.fbx
+  artifactKey: Guid(cebb6e6cfcaeab24abc369165da27191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Hansel_Gretel_Run_Baked_Animation.fbx using Guid(cebb6e6cfcaeab24abc369165da27191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217e345601afd2a320cbffb9a619611c') in 0.013752 seconds
+  Import took 0.016375 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.237067 seconds.
-  path: Assets/Scenes/Level_3.unity
-  artifactKey: Guid(5dfac403adc1f4130a6646128abb7aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_3.unity using Guid(5dfac403adc1f4130a6646128abb7aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba0f4ea43bdfd475b3ce585bab796f6') in 0.002196 seconds
-  Import took 0.004711 seconds .
+  Time since last request: 0.000264 seconds.
+  path: Assets/Animation/Hansel_Gretel_Walk_Animation.fbx
+  artifactKey: Guid(31b89ca66cf6047f5af6a794ef83f40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Hansel_Gretel_Walk_Animation.fbx using Guid(31b89ca66cf6047f5af6a794ef83f40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304ee9bb5139cbc6ea338c24b16e52ce') in 0.017117 seconds
+  Import took 0.019772 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000628 seconds.
-  path: Assets/Scenes/Level_3.unity
-  artifactKey: Guid(5dfac403adc1f4130a6646128abb7aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_3.unity using Guid(5dfac403adc1f4130a6646128abb7aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba0f4ea43bdfd475b3ce585bab796f6') in 0.001505 seconds
-  Import took 0.003781 seconds .
+  Time since last request: 0.000278 seconds.
+  path: Assets/Animation/Hansel_Gretel_Walk_Baked_Animation.fbx
+  artifactKey: Guid(0e052eedf3a34394baf6826956ed1ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Hansel_Gretel_Walk_Baked_Animation.fbx using Guid(0e052eedf3a34394baf6826956ed1ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f62dbd1d346231ab716f3c5977a61bb') in 0.015531 seconds
+  Import took 0.017966 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.771950 seconds.
-  path: Assets/Prefabs/2D_Bush_2.prefab
-  artifactKey: Guid(87330b7468e0b4246b875e7df227801e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/2D_Bush_2.prefab using Guid(87330b7468e0b4246b875e7df227801e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1bc8e078e330d543c45ed86f51cd60') in 1.710008 seconds
-  Import took 1.713178 seconds .
+  Time since last request: 0.000287 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(f83688e10f21a4400a587cc075b95555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(f83688e10f21a4400a587cc075b95555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259daf34cddd178dc75ca37750a030f9') in 0.007167 seconds
+  Import took 0.009763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Animation/Hansel_Gretel_Idle__Baked_Animation.fbx
+  artifactKey: Guid(f75ef15a642c1e34a8078235b1a53d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Hansel_Gretel_Idle__Baked_Animation.fbx using Guid(f75ef15a642c1e34a8078235b1a53d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c31c64bd30e75f72da68383d02e3651') in 0.013340 seconds
+  Import took 0.016712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Animation/Hansel_Gretel_Jump_Animation.fbx
+  artifactKey: Guid(64bd4be832e064d4184e533f591dbedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Hansel_Gretel_Jump_Animation.fbx using Guid(64bd4be832e064d4184e533f591dbedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ec096f66260f2f332561e62a892197') in 0.011786 seconds
+  Import took 0.016082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Animation/Hansel_Gretel_Jump_Baked_Animation.fbx
+  artifactKey: Guid(48d4f730c6f486f4394c63f34f679837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Hansel_Gretel_Jump_Baked_Animation.fbx using Guid(48d4f730c6f486f4394c63f34f679837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dab8d4caea38bc3f91ea98a122aa67e') in 0.011024 seconds
+  Import took 0.014092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Animation/Hansel_Gretel_Run_Animation.fbx
+  artifactKey: Guid(aa3ae2708e3a746bbbcfc0936f2aaa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Hansel_Gretel_Run_Animation.fbx using Guid(aa3ae2708e3a746bbbcfc0936f2aaa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1da3626e475141a642f0524eb6003a') in 0.011726 seconds
+  Import took 0.015465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.382377 seconds.
+  path: Assets/Animation/Whole File Exports
+  artifactKey: Guid(602966e942fb0984f95ef4789c46361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Whole File Exports using Guid(602966e942fb0984f95ef4789c46361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85711c2cbe24d208df5de00c2a1399f') in 0.006191 seconds
+  Import took 0.008261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071315 seconds.
+  path: Assets/Animation/Whole File Exports/Hansel_Gretle_Idle_Whole_File_Export.fbx
+  artifactKey: Guid(78925f6b1291e7f4287fd3c79434afcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Whole File Exports/Hansel_Gretle_Idle_Whole_File_Export.fbx using Guid(78925f6b1291e7f4287fd3c79434afcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad163b59f35d755bb93c744ee5e3be8') in 0.348588 seconds
+  Import took 0.354093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Animation/Whole File Exports/Hansel_Gretle_Walk_Whole_File_Export.fbx
+  artifactKey: Guid(2693b06f0d8939b44a3d2504f288b725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Whole File Exports/Hansel_Gretle_Walk_Whole_File_Export.fbx using Guid(2693b06f0d8939b44a3d2504f288b725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c8baa79bd126ecaf7345a6f3e3eba6') in 0.190392 seconds
+  Import took 0.194084 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000216 seconds.
-  path: Assets/Prefabs/Fairy_Ring.prefab
-  artifactKey: Guid(916bcafa4ed234411be179186ef18b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fairy_Ring.prefab using Guid(916bcafa4ed234411be179186ef18b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b4afe9168d0b36f7350d442955f08d') in 0.026147 seconds
-  Import took 0.028736 seconds .
+  path: Assets/Animation/Whole File Exports/Hansel_Gretle_Jump_Whole_File_Export.fbx
+  artifactKey: Guid(1735c8354dc0a3b4fa4c6088643cca58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Whole File Exports/Hansel_Gretle_Jump_Whole_File_Export.fbx using Guid(1735c8354dc0a3b4fa4c6088643cca58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355d8ba09f52430e1259aed66e947590') in 0.166221 seconds
+  Import took 0.169496 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Prefabs/2D_Cottage_2.prefab
-  artifactKey: Guid(a01c387f0437e0b4389c3866354a7dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/2D_Cottage_2.prefab using Guid(a01c387f0437e0b4389c3866354a7dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52880053b8c1b0d3177c1f508ce13f3') in 0.020561 seconds
-  Import took 0.023939 seconds .
+  Time since last request: 0.000237 seconds.
+  path: Assets/Animation/Whole File Exports/Hansel_Gretle_Run_Whole_File_Export.fbx
+  artifactKey: Guid(ec4b72867eca71744aed27c41923d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Whole File Exports/Hansel_Gretle_Run_Whole_File_Export.fbx using Guid(ec4b72867eca71744aed27c41923d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e59e1bf6e59c5e6318a26827db5f086') in 0.191194 seconds
+  Import took 0.194317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.040417 seconds.
+  path: Assets/Animation/Animation Models
+  artifactKey: Guid(8e0c7052c7a274243b66deed2624445c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation Models using Guid(8e0c7052c7a274243b66deed2624445c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee83d718c8f6ae9a7bedf6703b247849') in 0.006891 seconds
+  Import took 0.008800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039304 seconds.
+  path: Assets/Animation/Animation Models/Hansel_Gretle_Idle_Model.fbx
+  artifactKey: Guid(0b2419565dca3504298324c0d5a8a4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation Models/Hansel_Gretle_Idle_Model.fbx using Guid(0b2419565dca3504298324c0d5a8a4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad11c23f282c4d0ede3c05e78f609ab') in 0.182536 seconds
+  Import took 0.185756 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000252 seconds.
-  path: Assets/Prefabs/Trees_3.prefab
-  artifactKey: Guid(d848d7af440bb40fb88adc0e724e6e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Trees_3.prefab using Guid(d848d7af440bb40fb88adc0e724e6e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d9a4cdfa4abc78b853a910121d8841') in 0.017292 seconds
-  Import took 0.020120 seconds .
+  path: Assets/Animation/Animation Models/Hansel_Gretle_Jump_Model.fbx
+  artifactKey: Guid(97ebbf2c8b3bb4622a72c0d265829eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation Models/Hansel_Gretle_Jump_Model.fbx using Guid(97ebbf2c8b3bb4622a72c0d265829eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333f4759f7c16668e6b65d75a0c84ee0') in 0.191102 seconds
+  Import took 0.194307 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Prefabs/2D_Tree_2.prefab
-  artifactKey: Guid(dd68424ee86f13a47a5cb8bc1ef0e554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/2D_Tree_2.prefab using Guid(dd68424ee86f13a47a5cb8bc1ef0e554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6eb82b6bbb09cc696a9d9c412927b11') in 0.017003 seconds
-  Import took 0.020264 seconds .
+  Time since last request: 0.000233 seconds.
+  path: Assets/Animation/Animation Models/Hansel_Gretle_Run_Model.fbx
+  artifactKey: Guid(9a804a62f05ed4bcfa1be933a24e5a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation Models/Hansel_Gretle_Run_Model.fbx using Guid(9a804a62f05ed4bcfa1be933a24e5a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a441cf980a58f084c3f4f20f990de5d') in 0.192945 seconds
+  Import took 0.196661 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Prefabs/2D_Tree_2Small.prefab
-  artifactKey: Guid(689fa75931f22b7479b10ca1e403812f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/2D_Tree_2Small.prefab using Guid(689fa75931f22b7479b10ca1e403812f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa59c34c85220f65b05c5912f4caefe') in 0.015797 seconds
-  Import took 0.018906 seconds .
+  Time since last request: 0.000198 seconds.
+  path: Assets/Animation/Animation Models/Hansel_Gretle_Walk_Model.fbx
+  artifactKey: Guid(78ba4cac1326847118feb54d5fa1b521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation Models/Hansel_Gretle_Walk_Model.fbx using Guid(78ba4cac1326847118feb54d5fa1b521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfabb4ec72bc8cd8753fe5762480e8b9') in 0.208983 seconds
+  Import took 0.211978 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Prefabs/PlayerCharacter.prefab
-  artifactKey: Guid(750ea360a0ea1564885ae3946b419388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PlayerCharacter.prefab using Guid(750ea360a0ea1564885ae3946b419388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb7341de413fbcc4e9cb1e0a7e06ad6') in 0.136793 seconds
-  Import took 0.143546 seconds .
+  Time since last request: 3.879907 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a798ef87bde78ea77fc82184069af213') in 0.006943 seconds
+  Import took 0.009455 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Prefabs/Trees_1.prefab
-  artifactKey: Guid(d2b7dd2a7839a4976b3ed173689bc44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Trees_1.prefab using Guid(d2b7dd2a7839a4976b3ed173689bc44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5ded4585c99a8ead6ac78499d6805a') in 0.014942 seconds
-  Import took 0.017810 seconds .
+  Time since last request: 38.500673 seconds.
+  path: Assets/Scenes/Level_1.unity
+  artifactKey: Guid(d2880b644198d477881d1f913704ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_1.unity using Guid(d2880b644198d477881d1f913704ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aff0ecca6ad3cec7fcb90ebc95c62c6') in 0.005935 seconds
+  Import took 0.007842 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Prefabs/HUD.prefab
-  artifactKey: Guid(24c0f1e179d9f004fa5e30711df4fe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HUD.prefab using Guid(24c0f1e179d9f004fa5e30711df4fe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95598b48b8c288b9984544bd22f9e37') in 0.094045 seconds
-  Import took 0.097412 seconds .
+  Time since last request: 0.007343 seconds.
+  path: Assets/Scenes/Level_1.unity
+  artifactKey: Guid(d2880b644198d477881d1f913704ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_1.unity using Guid(d2880b644198d477881d1f913704ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aff0ecca6ad3cec7fcb90ebc95c62c6') in 0.002716 seconds
+  Import took 0.005065 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.6 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1623.
+Total: 1.485300 ms (FindLiveObjects: 0.119700 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.276000 ms  DeleteObjects: 0.058000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Prefabs/Trees_2.prefab
-  artifactKey: Guid(b186e312322244ac69df3387b8e7338d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Trees_2.prefab using Guid(b186e312322244ac69df3387b8e7338d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df85168cf91e511cd61362cc709a30de') in 0.014234 seconds
-  Import took 0.017136 seconds .
+  Time since last request: 164.755351 seconds.
+  path: Assets/2D Assets/UI/backgroundforIntro.png
+  artifactKey: Guid(f035aed11fa07e44094d5e93187e6d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/UI/backgroundforIntro.png using Guid(f035aed11fa07e44094d5e93187e6d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fe73683db95c8add81e02f2839c7f9') in 0.061139 seconds
+  Import took 0.063069 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.017305 seconds.
-  path: Assets/Scenes/Level_3.unity
-  artifactKey: Guid(5dfac403adc1f4130a6646128abb7aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_3.unity using Guid(5dfac403adc1f4130a6646128abb7aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f5695e576cb56407dde4ccb9c14ff8') in 0.004162 seconds
-  Import took 0.006558 seconds .
+  Time since last request: 0.000272 seconds.
+  path: Assets/2D Assets/UI/SS Pretzel Bold SDF.asset
+  artifactKey: Guid(eb2ed96f9510c8f4aabd448180e663fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/UI/SS Pretzel Bold SDF.asset using Guid(eb2ed96f9510c8f4aabd448180e663fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb91e59ef9d8b6df4048f698f59c94b') in 0.084418 seconds
+  Import took 0.086288 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/2D Assets/UI/TextBox_Cropped.png
+  artifactKey: Guid(d0a2943cb257af24da68d635442f772f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/UI/TextBox_Cropped.png using Guid(d0a2943cb257af24da68d635442f772f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662c9d03b218e9d7897981b31856553d') in 0.072359 seconds
+  Import took 0.074336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/2D Assets/UI/SS Pretzel Bold.otf
+  artifactKey: Guid(a5029bbc975774e44b6307495e310e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/UI/SS Pretzel Bold.otf using Guid(a5029bbc975774e44b6307495e310e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a088a36c6a039cc3b22853205a2133') in 0.064985 seconds
+  Import took 0.067101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/2D Assets/UI/Button_Cropped.png
+  artifactKey: Guid(5e84bf3774439204088a1ad6a2643033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/UI/Button_Cropped.png using Guid(5e84bf3774439204088a1ad6a2643033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d052245d6190b98175d92c9b6f2b1a') in 0.038296 seconds
+  Import took 0.040102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.300289 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(43e1796587592474897048948dac2d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(43e1796587592474897048948dac2d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf8db8e454628b20bca12c1a75baa01') in 0.011504 seconds
+  Import took 0.013346 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000700 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1637.
+Total: 1.899700 ms (FindLiveObjects: 0.214200 ms CreateObjectMapping: 0.084700 ms MarkObjects: 1.549600 ms  DeleteObjects: 0.050300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
