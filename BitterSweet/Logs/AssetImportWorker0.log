@@ -1,134 +1,107 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16191 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/runet/Documents/a/BitterSweet/BitterSweet
+/Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51037
-Successfully changed project path to: C:/Users/runet/Documents/a/BitterSweet/BitterSweet
-C:/Users/runet/Documents/a/BitterSweet/BitterSweet
+51389
+Successfully changed project path to: /Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet
+/Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/runet/Documents/a/BitterSweet/BitterSweet/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
-    Vendor:   
-    VRAM:     4018 MB
-    Driver:   27.21.14.6663
+2021-10-23 06:38:29.775 Unity[47905:348697] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2021-10-23 06:38:29.775 Unity[47905:348697] Metal devices available: 2
+2021-10-23 06:38:29.775 Unity[47905:348697] 0: AMD Radeon Pro 560X (high power)
+2021-10-23 06:38:29.775 Unity[47905:348697] 1: Intel(R) UHD Graphics 630 (low power)
+2021-10-23 06:38:29.776 Unity[47905:348697] Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56905
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002958 seconds.
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000688 seconds.
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 24.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 30.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.420 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.225 seconds
 Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.000755 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.755 seconds
-Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.6 MB.
-System memory in use after: 75.6 MB.
+System memory in use before: 130.0 MB.
+System memory in use after: 130.0 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1576.
-Total: 1.501400 ms (FindLiveObjects: 0.121900 ms CreateObjectMapping: 0.035000 ms MarkObjects: 1.273200 ms  DeleteObjects: 0.070300 ms)
+Total: 2.505299 ms (FindLiveObjects: 0.181843 ms CreateObjectMapping: 0.042573 ms MarkObjects: 2.034622 ms  DeleteObjects: 0.245012 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Level_2.unity
-  artifactKey: Guid(eea117846f93e784697d124720378821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_2.unity using Guid(eea117846f93e784697d124720378821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6555d9ad9c8dae9eb7cdd4adad2a232c') in 0.015769 seconds
-  Import took 0.017545 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 52.0 MB.
-System memory in use after: 52.1 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1576.
-Total: 1.856400 ms (FindLiveObjects: 0.154100 ms CreateObjectMapping: 0.044500 ms MarkObjects: 1.602900 ms  DeleteObjects: 0.053300 ms)
+  path: Assets/Scenes/Level_1.unity
+  artifactKey: Guid(d2880b644198d477881d1f913704ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_1.unity using Guid(d2880b644198d477881d1f913704ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8e5dd250ff32ca56581ea844e75d05') in 0.012888 seconds
+  Import took 0.015082 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.233120 seconds.
+  Time since last request: 0.000269 seconds.
   path: Assets/Scenes/Level_3.unity
   artifactKey: Guid(5dfac403adc1f4130a6646128abb7aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_3.unity using Guid(5dfac403adc1f4130a6646128abb7aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae12a22a605527168c7d61529cb8136') in 0.009123 seconds
-  Import took 0.011265 seconds .
+Start importing Assets/Scenes/Level_3.unity using Guid(5dfac403adc1f4130a6646128abb7aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1857e92c330f6c6dde2ad4dccf13a06b') in 0.001332 seconds
+  Import took 0.003164 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.669579 seconds.
-  path: Assets/Scenes/Level_4.unity
-  artifactKey: Guid(8ae9b6e9c82ff4e0f97625fe4378b432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_4.unity using Guid(8ae9b6e9c82ff4e0f97625fe4378b432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5208a8bd39372fe2fd2782570356d46c') in 0.007455 seconds
-  Import took 0.009239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.221335 seconds.
-  path: Assets/Scenes/Level_5.unity
-  artifactKey: Guid(49ef460ab4cb544e38f866dc2620c3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_5.unity using Guid(49ef460ab4cb544e38f866dc2620c3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8625cfe7e31c97b71d9c410412d8fb57') in 0.007182 seconds
-  Import took 0.008833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.019088 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(43e1796587592474897048948dac2d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(43e1796587592474897048948dac2d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c576bddc0da0e89984b2dd5a4b77feda') in 0.002318 seconds
-  Import took 0.004117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.333728 seconds.
+  Time since last request: 0.000253 seconds.
   path: Assets/Scenes/Level_2.unity
   artifactKey: Guid(eea117846f93e784697d124720378821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_2.unity using Guid(eea117846f93e784697d124720378821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d26adfc1e4dee66aed609c7bbe462e') in 0.002639 seconds
-  Import took 0.004470 seconds .
+Start importing Assets/Scenes/Level_2.unity using Guid(eea117846f93e784697d124720378821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8765353eed0be5216721258b5c7e110') in 0.001432 seconds
+  Import took 0.003273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.166844 seconds.
+  path: Assets/Scenes/Level_4.unity
+  artifactKey: Guid(8ae9b6e9c82ff4e0f97625fe4378b432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_4.unity using Guid(8ae9b6e9c82ff4e0f97625fe4378b432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abb64fa1d44a93051a9d39a4b9a071b') in 0.001502 seconds
+  Import took 0.003632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.358092 seconds.
+  path: Assets/Scenes/Level_5.unity
+  artifactKey: Guid(49ef460ab4cb544e38f866dc2620c3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_5.unity using Guid(49ef460ab4cb544e38f866dc2620c3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726485d54c30922b5c626c867d18a0ec') in 0.001360 seconds
+  Import took 0.003384 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
