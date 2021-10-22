@@ -59,6 +59,9 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 60
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!114 &3
 MonoBehaviour:
@@ -247,6 +250,9 @@ MonoBehaviour:
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 61
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!114 &10
 MonoBehaviour:
@@ -282,6 +288,9 @@ MonoBehaviour:
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 62
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!114 &11
 MonoBehaviour:
@@ -431,6 +440,9 @@ MonoBehaviour:
     m_SelectedIDs: 30560000
     m_LastClickedID: 22064
     m_ExpandedIDs: 0000000006560000085600000a56000000ca9a3b
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -460,7 +472,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000ec3a0000ee3a0000f03a0000
+=======
+    m_ExpandedIDs: 0000000006560000085600000a560000
+>>>>>>> Stashed changes
 =======
     m_ExpandedIDs: 0000000006560000085600000a560000
 >>>>>>> Stashed changes
@@ -678,9 +694,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: -122.08209, y: -295.34897, z: 439.24115}
     speed: 2
     m_Value: {x: -122.08209, y: -295.34897, z: 439.24115}
+=======
+    m_Target: {x: -21.787245, y: -89.92652, z: -105.98363}
+    speed: 2
+    m_Value: {x: -21.787245, y: -89.92652, z: -105.98363}
+>>>>>>> Stashed changes
 =======
     m_Target: {x: -21.787245, y: -89.92652, z: -105.98363}
     speed: 2
@@ -733,6 +755,7 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: -0.26648274, y: 0.12592101, z: -0.03512297, w: -0.95496756}
     speed: 2
     m_Value: {x: -0.26647398, y: 0.12591687, z: -0.035121813, w: -0.95493615}
@@ -740,6 +763,15 @@ MonoBehaviour:
     m_Target: 394.20715
     speed: 2
     m_Value: 377.23172
+=======
+    m_Target: {x: 0.6187646, y: 0.009174821, z: -0.007251406, w: 0.7855103}
+    speed: 2
+    m_Value: {x: 0.61875445, y: 0.009174671, z: -0.007251288, w: 0.7854975}
+  m_Size:
+    m_Target: 143.43433
+    speed: 2
+    m_Value: 143.43433
+>>>>>>> Stashed changes
 =======
     m_Target: {x: 0.6187646, y: 0.009174821, z: -0.007251406, w: 0.7855103}
     speed: 2

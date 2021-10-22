@@ -1,6 +1,10 @@
 sceneSetups:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - path: Assets/Scenes/Level_5.unity
+=======
+- path: Assets/Scenes/Level_4.unity
+>>>>>>> Stashed changes
 =======
 - path: Assets/Scenes/Level_4.unity
 >>>>>>> Stashed changes
