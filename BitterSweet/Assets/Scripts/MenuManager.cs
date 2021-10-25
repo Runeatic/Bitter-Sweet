@@ -26,17 +26,8 @@ public class MenuManager : MonoBehaviour
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
 		{
-			if (Time.timeScale == 1)
-			{
-				Time.timeScale = 0;
-				showPauseMenu();
-			}
-			else if (Time.timeScale == 0)
-			{
-				Debug.Log("game is go");
-				Time.timeScale = 1;
-				hidePauseMenu();
-			}
+			Application.Quit();
+			Debug.Log("booooooop");
 		}
 	}
 
@@ -48,6 +39,7 @@ public class MenuManager : MonoBehaviour
 	public void Quit()
 	{
 		Application.Quit();
+		Debug.Log("booooooop");
 	}
 
 	public void showCredits()

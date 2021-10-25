@@ -5,38 +5,37 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public CharacterController controller;
-    public Transform cam;
-    public float speed = 6f;
-    public float turnSmoothTime = 0.1f;
+    [SerializeField] private float _moveSpeed = 10f;
+    [SerializeField] private float _jumpSpeed = 0.5f;
+    [SerializeField] private float _gravity = 2f;
 
-    float turnSmoothVelocity;
-    //Animator my_Animator;
+    CharacterController _characterController;
+    private Vector3 _moveDirection;
 
-    void Start()
+    void Awake() => _characterController = GetComponent<CharacterController>();
+    void FixedUpdate()
     {
-       // my_Animator = GetComponent<Animator>();
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+
+        Vector3 inputDirection = new Vector3(horizontal, 0, vertical);
+        Vector3 transformDirection = transform.TransformDirection(inputDirection);
+        Vector3 flatMovement = _moveSpeed * Time.deltaTime * transformDirection;
+
+        _moveDirection = new Vector3(flatMovement.x, _moveDirection.y, flatMovement.z);
+
+        if (PlayerJumped)
+            _moveDirection.y = _jumpSpeed;
+        else if (_characterController.isGrounded)
+            _moveDirection.y = 0f;
+        else
+            _moveDirection.y -= _gravity * Time.deltaTime;
+
+        _characterController.Move(_moveDirection);
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
     }
 
-    void Update()
-    {
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
-        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
-
-        bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
-        bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);
-        bool isWalking = hasHorizontalInput || hasVerticalInput;
-        //my_Animator.SetBool("isMoving", isWalking);
-
-        if (direction.magnitude >= 0.1f)
-        {
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
-            transform.rotation = Quaternion.Euler(0f, angle, 0f);
-
-            Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-            controller.Move(moveDir.normalized * speed * Time.deltaTime);
-        }
-    }
+    private bool PlayerJumped => _characterController.isGrounded && Input.GetKey(KeyCode.Space);
 }
