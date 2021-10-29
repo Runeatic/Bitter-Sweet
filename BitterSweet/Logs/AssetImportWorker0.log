@@ -152,3 +152,19 @@ Received Import Request.
 Start importing Assets/Animations/Run_Animation.fbx using Guid(78a014ff58505ef4299cc18640dae2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc480f0c0de73443cfa20f83b661bfd9') in 0.009611 seconds
   Import took 0.012345 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 281.284128 seconds.
+  path: Assets/Animations/Walking_Animation.fbx
+  artifactKey: Guid(92c0879a5cb5abd428e7ca14734029e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Walking_Animation.fbx using Guid(92c0879a5cb5abd428e7ca14734029e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e3dcea6ba999195463de47c2706385') in 0.014107 seconds
+  Import took 0.017312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012832 seconds.
+  path: Assets/Animations/Walking_Animation.fbx
+  artifactKey: Guid(92c0879a5cb5abd428e7ca14734029e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Walking_Animation.fbx using Guid(92c0879a5cb5abd428e7ca14734029e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e3dcea6ba999195463de47c2706385') in 0.012224 seconds
+  Import took 0.015961 seconds .
+
