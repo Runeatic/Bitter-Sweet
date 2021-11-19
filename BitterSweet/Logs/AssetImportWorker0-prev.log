@@ -12,64 +12,140 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50399
+50502
 Successfully changed project path to: /Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet
 /Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 65.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 35.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/skyebaxter/Documents/GitHub/Bitter-Sweet/BitterSweet/Assets
 GfxDevice: creating device client; threaded=0
-2021-11-19 10:19:55.508 Unity[31890:1335617] Color LCD preferred device: AMD Radeon Pro 560X (high power)
-2021-11-19 10:19:55.508 Unity[31890:1335617] Metal devices available: 2
-2021-11-19 10:19:55.508 Unity[31890:1335617] 0: AMD Radeon Pro 560X (high power)
-2021-11-19 10:19:55.508 Unity[31890:1335617] 1: Intel(R) UHD Graphics 630 (low power)
-2021-11-19 10:19:55.509 Unity[31890:1335617] Using device AMD Radeon Pro 560X (high power)
+2021-11-19 10:50:36.937 Unity[31993:1347778] Color LCD preferred device: AMD Radeon Pro 560X (high power)
+2021-11-19 10:50:36.937 Unity[31993:1347778] Metal devices available: 2
+2021-11-19 10:50:36.937 Unity[31993:1347778] 0: AMD Radeon Pro 560X (high power)
+2021-11-19 10:50:36.937 Unity[31993:1347778] 1: Intel(R) UHD Graphics 630 (low power)
+2021-11-19 10:50:36.940 Unity[31993:1347778] Using device AMD Radeon Pro 560X (high power)
 Initializing Metal device caps: AMD Radeon Pro 560X
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56890
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56993
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001468 seconds.
+Registered in 0.000641 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 65.17 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 27.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.312 seconds
+- Completed reload, in  2.255 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000999 seconds.
+Registered in 0.000396 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.493 seconds
+- Completed reload, in  1.121 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1138 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.1 MB.
+System memory in use before: 132.2 MB.
 System memory in use after: 132.2 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1581.
-Total: 3.623240 ms (FindLiveObjects: 0.266208 ms CreateObjectMapping: 0.071572 ms MarkObjects: 3.106769 ms  DeleteObjects: 0.176509 ms)
+Total: 2.578667 ms (FindLiveObjects: 0.175208 ms CreateObjectMapping: 0.043397 ms MarkObjects: 2.244126 ms  DeleteObjects: 0.114706 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Cottage_2.unity
-  artifactKey: Guid(dac8e885ab58d47f187cdf22460f65b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cottage_2.unity using Guid(dac8e885ab58d47f187cdf22460f65b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27ebb8803fec525e60f60d62db3ab2a') in 0.022583 seconds
-  Import took 0.026467 seconds .
+  path: Assets/Animations/Cottage_Scenes/First/Animation_1.fbx
+  artifactKey: Guid(7ab8e735a1d854a94992d99fefcf3190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Cottage_Scenes/First/Animation_1.fbx using Guid(7ab8e735a1d854a94992d99fefcf3190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527702311abf2774f8e729ae359e7d15') in 1.365094 seconds
+  Import took 1.367539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.353203 seconds.
+  path: Assets/Scenes/Cottage_1.unity
+  artifactKey: Guid(b0f20689c86c24c9586c658b4386febf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cottage_1.unity using Guid(b0f20689c86c24c9586c658b4386febf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf91d735966d9169b7d243ecef94ded') in 0.001432 seconds
+  Import took 0.003399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017903 seconds.
+  path: Assets/Scenes/Cottage_1.unity
+  artifactKey: Guid(b0f20689c86c24c9586c658b4386febf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cottage_1.unity using Guid(b0f20689c86c24c9586c658b4386febf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf91d735966d9169b7d243ecef94ded') in 0.001592 seconds
+  Import took 0.003968 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000551 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.362 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.4 MB.
+System memory in use after: 135.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1583.
+Total: 2.206529 ms (FindLiveObjects: 0.173617 ms CreateObjectMapping: 0.045690 ms MarkObjects: 1.922596 ms  DeleteObjects: 0.063251 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.214595 seconds.
+  path: Assets/Animations/Cottage_Scenes/Second/Animation_2.fbx
+  artifactKey: Guid(b7910dc19754449a0b3a8cca3410e5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Cottage_Scenes/Second/Animation_2.fbx using Guid(b7910dc19754449a0b3a8cca3410e5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391fe5512cec33d33ab3a0b6459cf1ac') in 0.030483 seconds
+  Import took 0.032759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.405573 seconds.
+  path: Assets/Scenes/Level_4.unity
+  artifactKey: Guid(8ae9b6e9c82ff4e0f97625fe4378b432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_4.unity using Guid(8ae9b6e9c82ff4e0f97625fe4378b432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc11615a7e45f4141b387ec32438258') in 0.001702 seconds
+  Import took 0.003936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.504922 seconds.
+  path: Assets/Materials/Boots.mat
+  artifactKey: Guid(36af5e3cd3d884e5b8b94f35b6b159d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Boots.mat using Guid(36af5e3cd3d884e5b8b94f35b6b159d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39c32f2c2526080539d1bcc1e44828f') in 0.585682 seconds
+  Import took 0.588465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Materials/Skin.mat
+  artifactKey: Guid(c6b79e4d3aa4e4e26b0f37cd11b68042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skin.mat using Guid(c6b79e4d3aa4e4e26b0f37cd11b68042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cb97283183c1a4fe6540e392111f2c') in 0.018286 seconds
+  Import took 0.020884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.304081 seconds.
+  path: Assets/Scenes/Cottage_1.unity
+  artifactKey: Guid(b0f20689c86c24c9586c658b4386febf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cottage_1.unity using Guid(b0f20689c86c24c9586c658b4386febf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd99ce01da3a67c027cad9b6f2608906') in 0.002900 seconds
+  Import took 0.005671 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
