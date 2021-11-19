@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< Updated upstream
-- path: Assets/Scenes/Level_2.unity
-=======
-- path: Assets/Scenes/Cottage_3.unity
->>>>>>> Stashed changes
+- path: Assets/Scenes/Skye's_mess_around_scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
