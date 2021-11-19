@@ -148,4 +148,3 @@ Received Import Request.
 Start importing Assets/Scenes/Cottage_1.unity using Guid(b0f20689c86c24c9586c658b4386febf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd99ce01da3a67c027cad9b6f2608906') in 0.002900 seconds
   Import took 0.005671 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
