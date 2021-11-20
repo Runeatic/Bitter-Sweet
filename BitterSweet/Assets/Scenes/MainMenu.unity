@@ -367,7 +367,7 @@ RectTransform:
   m_Children:
   - {fileID: 1032668393}
   m_Father: {fileID: 361126222}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -561,10 +561,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1469811483}
-  - {fileID: 1166710162}
-  - {fileID: 40098909}
-  - {fileID: 202391162}
   - {fileID: 729212236}
+  - {fileID: 40098909}
+  - {fileID: 1166710162}
+  - {fileID: 202391162}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -616,7 +616,7 @@ RectTransform:
   m_Children:
   - {fileID: 973549102}
   m_Father: {fileID: 361126222}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -1203,7 +1203,7 @@ RectTransform:
   m_Children:
   - {fileID: 943370415}
   m_Father: {fileID: 361126222}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1361,7 +1361,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: f035aed11fa07e44094d5e93187e6d98, type: 3}
+  m_Texture: {fileID: 2800000, guid: ec9cb994db2e74b46b69ac620b94b963, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
