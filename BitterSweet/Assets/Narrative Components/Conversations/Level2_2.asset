@@ -17,7 +17,6 @@ MonoBehaviour:
     dialogue: "I know I\u2019ve seen this candy cottage before, although it seems
       slightly different?"
   - speaker: {fileID: 11400000, guid: 033fafd8ea9bec847b4783576e79dffd, type: 2}
-    dialogue: Maybe this time we should knock on the door.
+    dialogue: Maybe someone's here this time?
   - speaker: {fileID: 11400000, guid: c2c6daf8d43d7a2448faa820214aa389, type: 2}
-    dialogue: "I don\u2019t think anyone\u2019s home, let\u2019s just go inside and
-      see if there\u2019s anything to eat."
+    dialogue: I don't think so. Let's just go in and see if there's anything to eat/

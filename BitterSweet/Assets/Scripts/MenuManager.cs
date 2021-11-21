@@ -2,28 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
+using System;
 
 public class MenuManager : MonoBehaviour
 {
 	GameObject[] menuObjects;
 	GameObject[] pauseObjects;
 	GameObject[] creditObjects;
-	GameObject[] dialogueObjects;
 	GameObject[] finaleObjects;
 	bool gamePaused;
+	string playersName;
+	public TextMeshProUGUI finaleTxt;
 
 	void Start()
 	{
 		menuObjects = GameObject.FindGameObjectsWithTag("Main Menu");
 		creditObjects = GameObject.FindGameObjectsWithTag("Credits");
 		pauseObjects = GameObject.FindGameObjectsWithTag("Pause Menu");
-		dialogueObjects = GameObject.FindGameObjectsWithTag("Dialogue");
 		finaleObjects = GameObject.FindGameObjectsWithTag("Finale");
 		hideCredits();
 		hidePauseMenu();
-		hideDialogue();
 		hideFinale();
 		gamePaused = true;
+		playersName = Environment.UserName;
 	}
 
 	void Update()
@@ -105,27 +108,10 @@ public class MenuManager : MonoBehaviour
 		}
 	}
 
-	//Gameplay Scenes, shows Dialogue UI elements
-	public void showDialogue()
-    {
-		Time.timeScale = 0;
-		foreach (GameObject g in dialogueObjects)
-        {
-			g.SetActive(true);
-        }
-    }
-	//Gameplay Scenes, hides Dialogue UI elements
-	public void hideDialogue()
-	{
-		Time.timeScale = 1;
-		foreach (GameObject g in dialogueObjects)
-        {
-			g.SetActive(false);
-        }
-	}
 	//Finale Scene, shows Finale UI elements
 	public void showFinale()
 	{
+		finaleTxt.text = "There is nothing left for you to do " + playersName + ".";
 		foreach (GameObject g in finaleObjects)
 		{
 			g.SetActive(true);
