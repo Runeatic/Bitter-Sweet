@@ -50,9 +50,13 @@
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\AnimationStateController.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Scripts\DialogueHandler.cs" />
+     <Compile Include="Assets\Scripts\DialogueLine.cs" />
      <Compile Include="Assets\Scripts\MenuManager.cs" />
      <Compile Include="Assets\Scripts\NextLevel.cs" />
+     <Compile Include="Assets\Scripts\DialogueManager.cs" />
+     <Compile Include="Assets\Scripts\Test.cs" />
+     <Compile Include="Assets\Scripts\Speaker.cs" />
+     <Compile Include="Assets\Scripts\Conversation.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Animations\pleasework.txt" />
