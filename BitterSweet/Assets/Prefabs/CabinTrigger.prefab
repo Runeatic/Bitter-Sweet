@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 401537088864391264}
   - component: {fileID: 401537088864391265}
   - component: {fileID: 401537088864391269}
-  - component: {fileID: 150992034}
+  - component: {fileID: 1735257494}
   m_Layer: 0
   m_Name: CabinTrigger
   m_TagString: Untagged
@@ -113,7 +113,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &150992034
+--- !u!114 &1735257494
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,8 +122,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 401537088864391295}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06a63261b3d21de43b7cd7c9b56fb9f2, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f344499746bb7140b784648b0391f9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadNextScene: 1
-  convo: {fileID: 11400000, guid: 78018777c56112643865ffb7637e38a3, type: 2}

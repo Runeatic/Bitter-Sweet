@@ -4538,90 +4538,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 337530590, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_Color.b
-      value: 0.33962262
-      objectReference: {fileID: 0}
-    - target: {fileID: 337530590, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_Color.g
-      value: 0.33962262
-      objectReference: {fileID: 0}
-    - target: {fileID: 337530590, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_Color.r
-      value: 0.33962262
-      objectReference: {fileID: 0}
-    - target: {fileID: 394489279, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_fontColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 394489279, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_fontColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 394489279, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_fontColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 394489279, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 991233041, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_fontColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 991233041, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_fontColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 991233041, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_fontColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 991233041, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1004753323, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_text
-      value: There is nothing left for you to do here.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1004753323, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_margin.z
-      value: 319.91663
-      objectReference: {fileID: 0}
-    - target: {fileID: 1004753323, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_fontColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1004753323, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_fontColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1004753323, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_fontColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1004753323, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1198555819, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 166
-      objectReference: {fileID: 0}
-    - target: {fileID: 1198555820, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_Colors.m_NormalColor.b
-      value: 0.1792453
-      objectReference: {fileID: 0}
-    - target: {fileID: 1198555820, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_Colors.m_NormalColor.g
-      value: 0.1792453
-      objectReference: {fileID: 0}
-    - target: {fileID: 1198555820, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_Colors.m_NormalColor.r
-      value: 0.1792453
-      objectReference: {fileID: 0}
     - target: {fileID: 1932953009206535469, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
       propertyPath: m_Name
       value: HUD 1
@@ -4710,16 +4626,109 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1932953009923245481, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1932953009987270418, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
+--- !u!1 &110358282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 337530585, guid: b3305010ecbf0114fbf45a2ae3d6c9ae, type: 3}
+  m_PrefabInstance: {fileID: 110358281}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &110358283
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110358282}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 627857da3313b45c4b72d3a21635e9e0, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &110561197
 GameObject:
   m_ObjectHideFlags: 0
@@ -28563,7 +28572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 401537088864391266, guid: 6821f58798a0b3641904001b33fdac5e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.61
+      value: -21.84
       objectReference: {fileID: 0}
     - target: {fileID: 401537088864391266, guid: 6821f58798a0b3641904001b33fdac5e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -28571,7 +28580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 401537088864391266, guid: 6821f58798a0b3641904001b33fdac5e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 65.88
+      value: -67.64
       objectReference: {fileID: 0}
     - target: {fileID: 401537088864391266, guid: 6821f58798a0b3641904001b33fdac5e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -28605,8 +28614,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: CabinTrigger
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 150992034, guid: 6821f58798a0b3641904001b33fdac5e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6821f58798a0b3641904001b33fdac5e, type: 3}
+--- !u!1 &740671542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 401537088864391295, guid: 6821f58798a0b3641904001b33fdac5e, type: 3}
+  m_PrefabInstance: {fileID: 740671541}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &740671543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740671542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5228b479b949a4283fdbc60315d558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &743055702
 PrefabInstance:
   m_ObjectHideFlags: 0
