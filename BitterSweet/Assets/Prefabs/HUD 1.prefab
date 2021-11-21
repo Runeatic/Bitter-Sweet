@@ -878,7 +878,7 @@ GameObject:
   - component: {fileID: 1932953009987270416}
   m_Layer: 5
   m_Name: DialogueBackground
-  m_TagString: Untagged
+  m_TagString: Dialogue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -950,6 +950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b10fa9a999ebcc43a3d360270ae3c82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menuManager: {fileID: 0}
   textComponent: {fileID: 1932953008968425053}
   lines: []
   textSpeed: 0

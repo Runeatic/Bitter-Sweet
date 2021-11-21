@@ -8,6 +8,7 @@ TagManager:
   - Credits
   - Pause Menu
   - Dialogue
+  - Finale
   layers:
   - Default
   - TransparentFX

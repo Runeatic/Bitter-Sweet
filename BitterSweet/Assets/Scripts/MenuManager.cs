@@ -9,6 +9,7 @@ public class MenuManager : MonoBehaviour
 	GameObject[] pauseObjects;
 	GameObject[] creditObjects;
 	GameObject[] dialogueObjects;
+	GameObject[] finaleObjects;
 	bool gamePaused;
 
 	void Start()
@@ -17,9 +18,11 @@ public class MenuManager : MonoBehaviour
 		creditObjects = GameObject.FindGameObjectsWithTag("Credits");
 		pauseObjects = GameObject.FindGameObjectsWithTag("Pause Menu");
 		dialogueObjects = GameObject.FindGameObjectsWithTag("Dialogue");
+		finaleObjects = GameObject.FindGameObjectsWithTag("Finale");
 		hideCredits();
 		hidePauseMenu();
 		hideDialogue();
+		hideFinale();
 		gamePaused = true;
 	}
 
@@ -50,7 +53,6 @@ public class MenuManager : MonoBehaviour
 	public void Quit()
 	{
 		Application.Quit();
-		Debug.Log("booooooop");
 	}
 
 	//Main Menu Scene, displays credit UI elements
@@ -120,5 +122,21 @@ public class MenuManager : MonoBehaviour
         {
 			g.SetActive(false);
         }
+	}
+	//Finale Scene, shows Finale UI elements
+	public void showFinale()
+	{
+		foreach (GameObject g in finaleObjects)
+		{
+			g.SetActive(true);
+		}
+	}
+	//Finale Scene, hides Finale UI elements
+	public void hideFinale()
+	{
+		foreach (GameObject g in finaleObjects)
+		{
+			g.SetActive(false);
+		}
 	}
 }

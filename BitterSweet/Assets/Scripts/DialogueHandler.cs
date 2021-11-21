@@ -5,21 +5,22 @@ using TMPro;
 
 public class DialogueHandler : MonoBehaviour
 {
+    public MenuManager menuManager; 
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
     private int index;
     public AudioSource dialogueSFX;
+    
     void Start()
     {
         textComponent.text = string.Empty;
-        StartDialogue();
+        menuManager.GetComponent<MenuManager>();
     }
     void Update()
     {
         if(Input.GetKeyDown("space"))
         {
-            Debug.Log("aaaaaaaaaaaa");
             if (textComponent.text == lines[index])
             {
                 dialogueSFX.Stop();
@@ -30,6 +31,16 @@ public class DialogueHandler : MonoBehaviour
                 StopAllCoroutines();
                 textComponent.text = lines[index];
             }
+        }
+    }
+
+        private void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            menuManager.showDialogue();
+            StartDialogue();
+            Debug.Log("Bonk");
         }
     }
 
@@ -60,7 +71,7 @@ public class DialogueHandler : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
+            menuManager.hideDialogue();
         }
     }
 
