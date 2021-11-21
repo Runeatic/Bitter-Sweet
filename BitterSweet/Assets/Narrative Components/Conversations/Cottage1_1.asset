@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a6bb160804a0a04ab13a17724cf2d71, type: 3}
   m_Name: Cottage1_1
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: c2c6daf8d43d7a2448faa820214aa389, type: 2}
+    dialogue: "What a strange home\u2026"
+  - speaker: {fileID: 11400000, guid: 033fafd8ea9bec847b4783576e79dffd, type: 2}
+    dialogue: What do you suppose the cage is for?
+  - speaker: {fileID: 11400000, guid: c2c6daf8d43d7a2448faa820214aa389, type: 2}
+    dialogue: An animal maybe?
+  - speaker: {fileID: 11400000, guid: 033fafd8ea9bec847b4783576e79dffd, type: 2}
+    dialogue: "For a cage that size it must be big, maybe it\u2019s a bear!"
+  - speaker: {fileID: 11400000, guid: c2c6daf8d43d7a2448faa820214aa389, type: 2}
+    dialogue: "Let\u2019s just look for something to eat."

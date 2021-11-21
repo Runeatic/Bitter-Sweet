@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a6bb160804a0a04ab13a17724cf2d71, type: 3}
   m_Name: Cottage1_2
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: 2696fbd6e7ec745508f5b42a79fefd7b, type: 2}
+    dialogue: "It\u2019s bad manners breaking into someone\u2019s home children."

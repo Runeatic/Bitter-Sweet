@@ -12,4 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a6bb160804a0a04ab13a17724cf2d71, type: 3}
   m_Name: Level3_2
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: 033fafd8ea9bec847b4783576e79dffd, type: 2}
+    dialogue: "I see something through the trees, I think it\u2019s a cottage."
+  - speaker: {fileID: 11400000, guid: c2c6daf8d43d7a2448faa820214aa389, type: 2}
+    dialogue: "Let\u2019s go see if they have some food!"
+  - speaker: {fileID: 11400000, guid: 033fafd8ea9bec847b4783576e79dffd, type: 2}
+    dialogue: "I\u2019m not sure, I have a bad feeling about this."
+  - speaker: {fileID: 11400000, guid: c2c6daf8d43d7a2448faa820214aa389, type: 2}
+    dialogue: "Don\u2019t be such a worry wart, let\u2019s go!"

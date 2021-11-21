@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a6bb160804a0a04ab13a17724cf2d71, type: 3}
   m_Name: Cottage3_1
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: 48a90e7251ba70a4bb02e14f95e47e13, type: 2}
+    dialogue: "The oven is almost the right temperature to cook the boy. GIRL! Go
+      get him ready, I\u2019m starving."
+  - speaker: {fileID: 11400000, guid: 033fafd8ea9bec847b4783576e79dffd, type: 2}
+    dialogue: '*I have to think of a way to save my brother and escape the witch*'

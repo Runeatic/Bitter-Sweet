@@ -12,4 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a6bb160804a0a04ab13a17724cf2d71, type: 3}
   m_Name: Level3_1
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: 033fafd8ea9bec847b4783576e79dffd, type: 2}
+    dialogue: "This is strange, I know I\u2019ve been here before but I don\u2019t
+      remember quite so much blue."
+  - speaker: {fileID: 11400000, guid: c2c6daf8d43d7a2448faa820214aa389, type: 2}
+    dialogue: "That\u2019s ridiculous, forests don\u2019t change colour so quickly."
+  - speaker: {fileID: 11400000, guid: 033fafd8ea9bec847b4783576e79dffd, type: 2}
+    dialogue: "If you say so Hansel\u2026\u2026."

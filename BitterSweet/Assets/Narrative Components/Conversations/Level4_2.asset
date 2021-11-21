@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a6bb160804a0a04ab13a17724cf2d71, type: 3}
   m_Name: Level4_2
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: 033fafd8ea9bec847b4783576e79dffd, type: 2}
+    dialogue: "There haven\u2019t been any forks in the path for a while, we must
+      be going the right way!"
+  - speaker: {fileID: 11400000, guid: c2c6daf8d43d7a2448faa820214aa389, type: 2}
+    dialogue: "I hope so, I think it\u2019ll be getting dark soon, hopefully we\u2019ll
+      find somewhere to shelter before night falls."

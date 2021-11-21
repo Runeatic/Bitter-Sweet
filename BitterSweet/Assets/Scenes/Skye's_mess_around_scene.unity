@@ -14805,3 +14805,61 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &2083281086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2083281088}
+  - component: {fileID: 2083281087}
+  m_Layer: 0
+  m_Name: Whatever
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2083281087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083281086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ff3569dbc8a4a83b1860a5153de58b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullshit:
+  - {fileID: 11400000, guid: 1980402992f334f24900b5478dd17f28, type: 2}
+  - {fileID: 11400000, guid: c787cd03825db4144a7be97a1647876a, type: 2}
+  - {fileID: 11400000, guid: 8e7ad1c6fc028485ead31c68ee3585ac, type: 2}
+  - {fileID: 11400000, guid: cbae984f52c364f8c98c2e89d81e5cd5, type: 2}
+  - {fileID: 11400000, guid: c89ef14a03e054cf3a1036241e3ef2e6, type: 2}
+  - {fileID: 11400000, guid: 808d3e37ca00b41e6ab181634b8f6b11, type: 2}
+  - {fileID: 11400000, guid: 4484a6c80d1114402bfbec6a502ba4f7, type: 2}
+  - {fileID: 11400000, guid: 3d1d32249c0324c55a01ca0b1fe8a0bd, type: 2}
+  - {fileID: 11400000, guid: d87f3d0f56ffc429d9872bb9a5ef5e53, type: 2}
+  - {fileID: 11400000, guid: 3559229a10cd04b598c85e0f9094c766, type: 2}
+  - {fileID: 11400000, guid: 28b3680502b8d4e7fa571a7bb1383b7f, type: 2}
+  - {fileID: 11400000, guid: db562d60f76bc4f139dbe2f1b0f81218, type: 2}
+  - {fileID: 11400000, guid: 4b0e90d43d57b48479cd02a0d240bdba, type: 2}
+  - {fileID: 11400000, guid: 76084a8832beb42ab95dd6a049388cd9, type: 2}
+--- !u!4 &2083281088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083281086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.16722, y: -87.40958, z: 40.588417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
