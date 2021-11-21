@@ -41,7 +41,7 @@ public class MenuManager : MonoBehaviour
 	}
 
 	//Loads next level in build order
-	public void LoadLevel()
+	public void loadLevel()
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}

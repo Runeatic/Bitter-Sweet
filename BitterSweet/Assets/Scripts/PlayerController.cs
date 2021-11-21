@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
     int isWalkingHash;
     int isJumpingHash;
 
+    public AudioSource walkingSFX;
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -36,7 +38,7 @@ public class PlayerController : MonoBehaviour
         moveDirection = new Vector3(flatMovement.x, moveDirection.y, flatMovement.z);
 
         bool isWalking = animator.GetBool("isWalk");
-        bool playerWalking = Input.GetKey("w") | Input.GetKey("a") | Input.GetKey("s") | Input.GetKey("d");
+        bool playerWalking = Input.GetKey("w") | Input.GetKey("a") | Input.GetKey("s") | Input.GetKey("d") |  Input.GetKey("up") | Input.GetKey("left") | Input.GetKey("right") | Input.GetKey("down");
         bool isJumping = animator.GetBool("isJump");
         bool playerJumping = Input.GetKey("space");
 
@@ -61,17 +63,19 @@ public class PlayerController : MonoBehaviour
         //move player character
         characterController.Move(moveDirection);
         
-        //if playing is pressing wasd keys...
+        //if playing is moving the character...
         if (!isWalking && playerWalking)
         {
             //animator bool isWalk is set to true
             animator.SetBool(isWalkingHash, true);
+            walkingSFX.Play();
         }
-        //if player is not pressing wasd keys...
+        //if player is not pressing moving the character...
         if (isWalking && !playerWalking)
         {
             //animator bool isWalk is set to false
             animator.SetBool(isWalkingHash, false);
+            walkingSFX.Stop();
         }
         //if playing is pressing space...
         if (!isJumping && playerJumping)
